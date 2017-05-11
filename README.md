@@ -16,18 +16,18 @@
 
 
 页面结构:更多源码内容关注后回复ofo领取。
-#{"pages":[  "pages/index/index", // 地图页
-#  "pages/warn/index",  // 车辆报障页
-#  "pages/scanresult/index", // 扫码成功页
-#  "pages/billing/index", // 开始计费页
-#  "pages/my/index", // 账户页
-#  "pages/wallet/index", // 钱包页
-#  "pages/charge/index", // 充值页
-#  "pages/logs/logs" // 日志页],"window":{  "backgroundTextStyle":"light", 
-#  "navigationBarBackgroundColor": "#b9dd08", // 标题栏背景色
-#  "navigationBarTitleText": "ofo 共享单车",  // 标题栏文字
-#  "navigationBarTextStyle":"black" // 标题栏文字样式}
-# }
+{"pages":[  "pages/index/index", // 地图页
+  "pages/warn/index",  // 车辆报障页
+  "pages/scanresult/index", // 扫码成功页
+ "pages/billing/index", // 开始计费页
+  "pages/my/index", // 账户页
+  "pages/wallet/index", // 钱包页
+  "pages/charge/index", // 充值页
+ "pages/logs/logs" // 日志页],"window":{  "backgroundTextStyle":"light", 
+ "navigationBarBackgroundColor": "#b9dd08", // 标题栏背景色
+  "navigationBarTitleText": "ofo 共享单车",  // 标题栏文字
+  "navigationBarTextStyle":"black" // 标题栏文字样式}
+ }
 　小清新鹿晗强力吸粉 巩固ofo健康环保形象
 　　鹿晗可谓是当今中国最具人气的明星，他的一举一动都受到粉丝高度关注，具有强大的跟随效应。鹿晗代言ofo小黄车微博转发仅2天，就获得了单条15万次转发和近70万次点赞，天量粉丝流使ofo登上微博话题榜首位。不到48小时内，鹿晗代言ofo的“一鹿轻松骑”微博阅读量超10亿。
   
