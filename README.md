@@ -1,32 +1,34 @@
-# 仿写共享单车OFO小黄车微信小程序源码
-【微信关注 H5开发社区 查看开发教程】
-仿写共享单车OFO小黄车微信小程序源码分享。
-想学一下微信小程序，发现文档这东西，干看真没啥意思。所以打算自己先动手撸一个。摩拜单车有自己的小程序，基本功能都有，方便又小巧，甚是喜爱。于是我就萌生了一个给ofo共享单车撸一个小程序(不知道为啥ofo没有小程序)的想法。Let's do it!
+### 主要特性
 
-共享单车行业的原创者和领骑者，ofo小黄车正式宣布鹿晗成为其品牌代言人之后，小黄车正式开启了霸屏模式，公交站地铁站随处可见鹿晗骑行小黄车的海报。
+- 想学一下微信小程序，发现文档这东西，干看真没啥意思。所以打算自己先动手撸一个。摩拜单车有自己的小程序，基本功能都有，方便又小巧，甚是喜爱。于是我就萌生了一个给ofo共享单车撸一个小程序(不知道为啥ofo没有小程序)的想法。Let's do it!
 
-微信开发流程流程介绍：
-1.准备工作
+由于本文篇幅过长，影响浏览体验，我对这篇文章做了一下拆分，修正了一些错误
 
-下载微信小程序开发软件，自己去百度或是腾讯开发者中心下载。
-2.小程序页面
+# 先上一波效果图：
 
-打开小程序开发者工具，用微信扫码登录，创建一个默认的小程序。界面是酱的：
+![](https://upload-images.jianshu.io/upload_images/2795762-397166cf2df4cd93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+![](https://upload-images.jianshu.io/upload_images/2795762-5b0f0b7ef9339251.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+![](https://upload-images.jianshu.io/upload_images/2795762-fab144940facabf5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
 
-页面结构:更多源码内容关注后回复ofo领取。
-{"pages":[  "pages/index/index", // 地图页
-  "pages/warn/index",  // 车辆报障页
-  "pages/scanresult/index", // 扫码成功页
- "pages/billing/index", // 开始计费页
-  "pages/my/index", // 账户页
-  "pages/wallet/index", // 钱包页
-  "pages/charge/index", // 充值页
- "pages/logs/logs" // 日志页],"window":{  "backgroundTextStyle":"light", 
- "navigationBarBackgroundColor": "#b9dd08", // 标题栏背景色
-  "navigationBarTitleText": "ofo 共享单车",  // 标题栏文字
-  "navigationBarTextStyle":"black" // 标题栏文字样式}
- }
-　小清新鹿晗强力吸粉 巩固ofo健康环保形象
-　　鹿晗可谓是当今中国最具人气的明星，他的一举一动都受到粉丝高度关注，具有强大的跟随效应。鹿晗代言ofo小黄车微博转发仅2天，就获得了单条15万次转发和近70万次点赞，天量粉丝流使ofo登上微博话题榜首位。不到48小时内，鹿晗代言ofo的“一鹿轻松骑”微博阅读量超10亿。
-  
-扫描二维码或长按二维码图片进行关注，回复ofo即可领取仿写OFO微信小程序源码一份，如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！
+
+**目录 (Table of Contents)**
+pages文件夹下存放着小程序所有的业务页面；
+
+index文件夹就是一个页面，index.wxml是页面的结构文件，类似html。
+
+index.wxss是页面的样式，其实就是css；index.js是页面的逻辑，数据请求与渲染都是都在这个页面完成。
+
+logs文件夹存放着小程序开发日志，目前暂时用不到。
+
+utils.js可以编写自己的JavaScript插件。
+
+app.js处理全局的一些逻辑，比如定义全局变量存放获取的用户信息，这样每个页面都可以获取用户信息。
+
+app.json 是全局配置文件，比如设置标题栏的背景色等。
+
+app.wxss 存放页面的公共样式，如果多个页面需要用到同一样式，就可以写在这里。
+
+项目按钮显示预览二维码，用于真机调试。必须真机调试测试代码
+#关注H5开发社区公众号，获取更多微信小程序开发教程
+![](https://mmbiz.qpic.cn/mmbiz_png/OzyYXjBCAYia064da1bBbSMpLFGCTLqO9o5UMW7CWQzAYNjelDL5f8Dyofh73sHgjBbhm9lNnh3eEx1Anuol96w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+### End
