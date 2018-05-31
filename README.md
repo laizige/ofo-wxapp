@@ -1,3 +1,5 @@
+#关注H5开发社区公众号，获取更多微信小程序开发教程
+![](https://mmbiz.qpic.cn/mmbiz_png/OzyYXjBCAYia064da1bBbSMpLFGCTLqO9o5UMW7CWQzAYNjelDL5f8Dyofh73sHgjBbhm9lNnh3eEx1Anuol96w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 ### 主要特性
 
 - 想学一下微信小程序，发现文档这东西，干看真没啥意思。所以打算自己先动手撸一个。摩拜单车有自己的小程序，基本功能都有，方便又小巧，甚是喜爱。于是我就萌生了一个给ofo共享单车撸一个小程序(不知道为啥ofo没有小程序)的想法。Let's do it!
@@ -29,6 +31,5 @@ app.json 是全局配置文件，比如设置标题栏的背景色等。
 app.wxss 存放页面的公共样式，如果多个页面需要用到同一样式，就可以写在这里。
 
 项目按钮显示预览二维码，用于真机调试。必须真机调试测试代码
-#关注H5开发社区公众号，获取更多微信小程序开发教程
-![](https://mmbiz.qpic.cn/mmbiz_png/OzyYXjBCAYia064da1bBbSMpLFGCTLqO9o5UMW7CWQzAYNjelDL5f8Dyofh73sHgjBbhm9lNnh3eEx1Anuol96w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
 ### End
